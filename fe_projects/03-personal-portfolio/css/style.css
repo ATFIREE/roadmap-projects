@@ -1,0 +1,107 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #222;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.logo img {
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: green;
+    color: white;
+}
+
+main {
+    background-color: #cfebdb;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+main .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: brown;
+    font-style: italic;
+    font-size: 20px;
+}
+
+@keyframes rainbow-title {
+    0% {
+        color: red;
+    }
+
+    15% {
+        color: orange;
+    }
+
+    30% {
+        color: yellow;
+    }
+
+    45% {
+        color: green;
+    }
+
+    50% {
+        color: blue;
+    }
+
+    65% {
+        color: indigo;
+    }
+
+    80% {
+        color: purple;
+    }
+
+    100% {
+        color: rgb(47, 2, 47);
+    }
+}
+
+section.projects h2,
+section.work-experience h2,
+section.edu h2,
+section.articles h2,
+section.contact h2,
+aside.reviews h2 {
+    animation-name: rainbow-title;
+    animation-delay: 5s;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+aside blockquote .tagname {
+    font-style: italic;
+}
