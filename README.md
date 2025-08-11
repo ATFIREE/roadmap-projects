@@ -10,7 +10,7 @@ https://roadmap.sh/projects/single-page-cv
 Project 02: Basic HTML Website
 https://roadmap.sh/projects/basic-html-website
 
-## 03-personal-portfolio
+## 03.Personal Portfolio
 
 Project 03: Personal portfolio
 https://roadmap.sh/projects/portfolio-website
