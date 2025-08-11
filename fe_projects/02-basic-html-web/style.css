@@ -1,0 +1,36 @@
+*{
+    margin: 5px auto;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 10px 50px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 50px;
+    height: auto;
+    border-radius: 10px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li{
+    padding-right: 100px;
+}
+
+.tagname{
+    color: gray;
+    font-style: italic;
+}
