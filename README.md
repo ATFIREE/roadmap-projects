@@ -14,3 +14,8 @@ https://roadmap.sh/projects/basic-html-website
 
 Project 03: Personal portfolio
 https://roadmap.sh/projects/portfolio-website
+
+## 04.Changelog Component
+
+Project 03: Changelog Component
+https://roadmap.sh/projects/changelog-component
