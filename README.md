@@ -17,5 +17,10 @@ https://roadmap.sh/projects/portfolio-website
 
 ## 04.Changelog Component
 
-Project 03: Changelog Component
+Project 04: Changelog Component
 https://roadmap.sh/projects/changelog-component
+
+## 05.Testimonial Cards
+
+Project 04: Testimonial Cards
+https://roadmap.sh/projects/testimonial-cards
