@@ -29,3 +29,8 @@ https://roadmap.sh/projects/testimonial-cards
 
 Project 06: Tabs
 https://roadmap.sh/projects/simple-tabs
+
+## 07.Cookie Consent
+
+Project 06: Cookie Consent
+https://roadmap.sh/projects/cookie-consent
