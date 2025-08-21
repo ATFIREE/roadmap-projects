@@ -22,5 +22,10 @@ https://roadmap.sh/projects/changelog-component
 
 ## 05.Testimonial Cards
 
-Project 04: Testimonial Cards
+Project 05: Testimonial Cards
 https://roadmap.sh/projects/testimonial-cards
+
+## 06.Tabs
+
+Project 06: Tabs
+https://roadmap.sh/projects/simple-tabs
