@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    /* Căn giữa ngang */
+    align-items: center;
+    /* Căn giữa dọc */
+    min-height: 100vh;
+    /* Chiếm toàn màn hình */
+    background: #f0f2f5;
+}
+
+.container {
+    width: 600px;
+    height: fit-content;
+    text-align: center;
+    border: 2px solid black;
+    background: #fff;
+    border: 2px solid #ccc;
+    border-radius: 12px;
+    overflow: hidden;
+    /* bo gọn các góc */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.tab {
+    display: flex;
+    border-bottom: 2px solid #ddd;
+    background: #f9f9f9;
+}
+
+.tab .tabLinks {
+    flex: 1;
+    /* chia đều chiều rộng */
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #555;
+    transition: all 0.3s ease;
+}
+
+.tab .tabLinks:hover {
+    background: #eee;
+    color: #000;
+}
+
+.tab .tabLinks.active {
+    border-bottom: 3px solid #007BFF;
+    /* gạch dưới xanh */
+    color: #007BFF;
+    font-weight: 600;
+    background: #fff;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.tab button:hover {
+    background-color: aqua;
+}
+
+.tab button.active {
+    color: cadetblue;
+}
+
+.tabcontent {
+    display: none;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-top: none;
+    background: #fff;
+}
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    color: purple;
+}
+
+.content {
+    text-align: justify;
+    background-color: #95c5a8;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
