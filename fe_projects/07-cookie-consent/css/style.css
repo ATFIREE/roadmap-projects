@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #0099FF;
+}
+
+.container {
+    position: fixed;
+    bottom: 50px;
+    right: -370px;
+    max-width: 345px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    transition: right 0.3s ease;
+}
+
+.container.show {
+    right: 20px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+
+header i {
+    font-size: 32px;
+    color: #0099FF;
+}
+
+header h1 {
+    font-weight: 500;
+    color: #0099FF;
+}
+
+section p {
+    font-size: 16px;
+    color: rgb(42, 54, 55);
+}
+
+section p a {
+    color: #0099FF;
+    text-decoration: none;
+}
+
+section p a:hover {
+    color: black;
+}
+
+.buttons {
+    margin-top: 16px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buttons button {
+    border: none;
+    padding: 8px 0px;
+    border-radius: 8px;
+    background-color: #0099FF;
+    cursor: pointer;
+    transition: all 0.2 ease;
+    width: calc(100% / 2 - 10px);
+    color: white;
+}
+
+.buttons button:hover {
+    background-color: blue;
+    font-size: calc(+15px);
+}
+
+/* .buttons #acceptBtn:hover {
+    background-color: #034bf1;
+} */
+
+#declineBtn {
+    border: 2px solid #4070f4;
+    background-color: #fff;
+    color: #4070f4;
+}
+
+#declineBtn:hover {
+    background-color: #4070f4;
+    color: #fff;
+}
